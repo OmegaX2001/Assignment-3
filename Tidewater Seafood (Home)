@@ -1,0 +1,193 @@
+<html>
+<body style="background-color:lightskyblue;">
+
+<head>
+    <title>Tidewater Seafood</title>
+	<style>
+ h1 {text-align: center;}
+ h4 {text-align: center;}
+    </style>
+</head>
+
+<body>
+    <script>
+	// went with blue background since TCC's main color is that besides white
+	// decided I wanted to change/revise my inital storyboard design 
+	</script>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+				<li><a href="#food-menu">Menu</a></li>
+				<li><a href="#food">Gallery</a></li>
+            </ul>
+            <h1 class="logo">Tidewater Seafood</h1>
+        </div>
+    </nav>
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h4>From Here, Go Anywhere</h4>
+            <a href="#food-menu" class="btn btn-primary">Menu</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <p class="small">About Us</p>
+                <h2>Only the best kinds of seafood here!</h2>
+                <p>
+                    If you love quality and affordable seafood then Tideweater Seafood
+					is the place you need to be! We have food ranging from tasty scrumptious
+					lobster, mouthwatering shrimp and veggies, or even some appetizing crabs
+					to name a few! 
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="https://media.istockphoto.com/id/1156027693/photo/fresh-salmon-steak-with-a-variety-of-seafood-and-herbs.jpg?s=612x612&w=0&k=20&c=FnY31V37yG5Ip4ejRttubUHBS8PPTaZfHHukDsEDjc0=" alt="food" />
+            </div>
+        </div>
+    </section>
+    <section id="food">
+        <h2>Most Popular</h2>
+        <div class="food-container container">
+            <div class="food-type fruite">
+                <div class="img-container">
+                    <img src="https://www.bhg.com/thmb/ysHaU75g2dsaFABm8OH-G2hA05E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/boiled-lobster-RU317919-f03635ba326940bf815a27028ed7d686.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Boiled Lobster Combo</h3>
+						<p class="food-price">Price: &#8377; $17.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type vegetable">
+                <div class="img-container">
+                    <img src="https://www.rachelcooks.com/wp-content/uploads/2021/05/shrimp-and-vegetable-stir-fry-web-2-of-5-square.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Shrimp & Vegetable Stir Fry w/Lemon & Garlic</h3>
+						<p class="food-price">Price: &#8377; $11.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type grin">
+                <div class="img-container">
+                    <img src="https://www.acouplecooks.com/wp-content/uploads/2020/09/Blackened-Salmon-009-735x919.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Blackened Salmon</h3>
+						<p class="food-price">Price: &#8377; $14.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="food-menu">
+        <h2 class="food-menu-heading">Beverages</h2>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://images.ctfassets.net/zpx0hfp3jryq/1yAuHfJQsvB6s2ixoTvNya/d432cfc4e4e558e165be7b0ddc6c4bf1/Sparkling-Wine-1.jpg?fm=jpg&fl=progressive" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Sparkling Wine</h2>
+                    <p>
+                        Come on down and try our divine Sparkling Wine! You won't regret
+						it!
+                    </p>
+                    <p class="food-price">Price: &#8377; $10.99</p>
+                </div>
+            </div>
+
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://tastesbetterfromscratch.com/wp-content/uploads/2019/03/Strawberry-Lemonade-8.jpg" alt="error" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Strawberry Lemonade</h2>
+                    <p>
+                        Our mouthwatering Strawberry Lemonade will be sure
+						to quench your thrists!
+                    </p>
+                    <p class="food-price">Price: &#8377; $2.41</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://insanelygoodrecipes.com/wp-content/uploads/2021/09/Cold-Strawberry-Cocktail-with-Fresh-Strawberries-and-Mint.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Strawberry Cocktail</h2>
+                    <p>
+                        If the Strawberry Lemonade didn't manage to quench your thrist, then this
+						ice cold cocktail will for sure!
+                    </p>
+                    <p class="food-price">Price: &#8377; $11.50</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://jimmysconey.com/wp-content/uploads/2020/11/Drinks-2.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Fountain Drinks</h2>
+                    <p>
+                        We also have various fountain drinks ranging from Pepsi, Barq's 
+						Root Beer, and Dr. Pepper among some others!
+                    </p>
+                    <p class="food-price">Price: &#8377; Varies</p>
+                </div>
+            </div>
+	    <h2 class="food-menu-heading">Seafood Specials!</h2>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+                <div class="food-img">		
+                    <img src="https://www.dinneratthezoo.com/wp-content/uploads/2019/05/seafood-boil-5.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Seafood Boil</h2>
+                    <p>
+                        Our delectable Seafood Boil will be sure to leave you
+						stuffed and content!
+                    </p>
+                    <p class="food-price">Price: &#8377; $18.99</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://juliasalbum.com/wp-content/uploads/2015/10/trout.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Trout w/ Garlic Lemon Butter Herb Sauce</h2>
+                    <p>
+                        This delicious Trout is one of our most popular choices!
+						You'd be crazy not to try it!
+                    </p>
+                    <p class="food-price">Price: &#8377; $16.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+            </div>
+
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <input type="text" placeholder="Your Name" />
+                <input type="email" placeholder="E-Mail" />
+                <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
+                <a href="#" class="btn btn-primary">Submit</a>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <h2>Restraunt &copy; all rights reserved</h2>
+    </footer>
+
+</html>
+</body>
+
+</html>
