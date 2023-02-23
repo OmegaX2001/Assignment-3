@@ -1,0 +1,132 @@
+<html>
+<body style="background-color:lightskyblue;">
+
+
+<head>
+    <title>Tidewater Seafood</title>
+    <style>
+ h1 {text-align: center;}
+ h2 {text-align: center;}
+ h4 {text-align: center;}	
+	</style>
+
+</head>
+
+<body>
+    <script>
+	// Still have to send the updated storyboards soon
+	
+	</script>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+				<li><a href="#food-menu">Menu</a></li>
+				<li><a href="#food">Gallery</a></li>
+            </ul>
+            <h1 class="logo">Tidewater Seafood</h1>
+        </div>
+    </nav>
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h4>From Here, Go Anywhere</h4>
+            <a href="#food-menu" class="btn btn-primary">Gallery</a>
+        </div>
+    </section>
+
+    <section id="food">
+        <h2>Our Scrumptious Options!</h2>
+        <div class="food-container container">
+                <div class="img-container">
+                    <img src="https://www.dinneratthezoo.com/wp-content/uploads/2019/12/crab-legs-4-500x500.jpg" alt="error" />
+					<img src="https://bakeitwithlove.com/wp-content/uploads/2022/01/What-to-serve-with-crab-legs-sq-500x375.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Crab Meals</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type container">
+                <div class="img-container">
+                    <img src="https://www.sidechef.com/recipe/e9d4e1fb-0bbc-4c12-9ded-50aae5d4af8f.png?d=375x375" alt="error" />
+					<img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/07/26/DVSP132__fried-calamari_s4x3.jpg.rend.hgtvcom.616.462.suffix/1627312240314.jpeg" alt="error" />
+                    <div class="img-content">
+                        <h3>Calamari (Highly Popular!!)</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type container">
+                <div class="img-container">
+                    <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/gfo1117-oysters-2b623ac.jpg?quality=90&resize=556,505" alt="error" />
+                    <div class="img-content">
+                        <h3>Oysters</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+		    <div class="food-type container">
+                <div class="img-container">
+                    <img src="https://sallysbakingaddiction.com/wp-content/uploads/2016/05/honey-garlic-shrimp-5.jpg" alt="error" />
+					<img src="https://2sistersrecipes.com/wp-content/uploads/2019/02/Easy-Shrimp-Dinner-2-720x720.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Shrimp Meals</h3>
+                    </div>
+                </div>
+            </div>
+			<div class="food-type container">
+                <div class="img-container">
+                    <img src="https://irepo.primecp.com/2016/03/266260/recipe-11539_Category-CategoryPageDefault_ID-1494630.jpg?v=1494630" alt="error" />
+					<img src="https://www.lovefrenchfood.com/images/snails.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Escargot</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+		    <div class="food-type container">
+                <div class="img-container">
+                    <img src="https://ciaoflorentina.com/wp-content/uploads/2015/07/Garlic-Scallops-Healthy-4.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Scallops</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+		    <div class="food-type container">
+                <div class="img-container">
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/grilled-lobster-tails2-1655321915.jpeg?crop=0.738xw:1.00xh;0.132xw,0&resize=640:*" alt="error" />
+					<img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/lobster_tails-3b1d14d.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Lobster Meals</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+		    <div class="food-type container">
+                <div class="img-container">
+                    <img src="https://www.servingdumplings.com/wp-content/uploads/2022/10/mussels-and-shrimp-in-garlic-tomato-sauce-cover-f4cb9828.jpg" alt="error" />
+					<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/prawn-recipes-1624459118.jpg?crop=0.334xw:0.668xh;0,0.173xh&resize=640:*" alt="error" />
+                    <div class="img-content">
+                        <h3>Mussel & Prawns</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+		    <div class="food-type container">
+                <div class="img-container">
+                    <img src="https://cookinglsl.com/wp-content/uploads/2016/07/octopus-6-1.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Octopus</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</html>
+</body>
