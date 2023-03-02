@@ -1,0 +1,114 @@
+<html>
+<body style="background-color:lightskyblue;">
+
+<head>
+    <title>Tidewater Seafood</title>
+	<style>
+ h1 {text-align: center;}
+ h4 {text-align: center;}
+    </style>
+</head>
+
+<body>
+    <script>
+	// went with blue background since TCC's main color is that besides white
+	// decided I wanted to change/revise my inital storyboard design 
+	document.body.style.backgroundImage = "url('Seafood.jpg')";
+	</script>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#food-dessert">Dessert</a></li>
+				<li><a href="#food-menu">Beverages</a></li>
+				<li><a href="#food">Main Courses</a></li>
+            </ul>
+            <h1 class="logo">Tidewater Seafood</h1>
+        </div>
+    </nav>
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h4>From Here, Go Anywhere</h4>
+            <a href="#food" class="btn btn-primary">Menu</a>
+        </div>
+    </section>
+
+    <section id="food">
+        <h2>Main Courses</h2>
+        <div class="food-container container">
+            <div class="food-type fruite">
+                <div class="img-container">
+                    <div class="img-content">
+                        <h3>Boiled Lobster Combo . . . . . . $17.99</h3>
+						<h3>Shrimp & Vegetable Stir Fry w/Lemon & Garlic . . . . . . $11.99</h3>
+						<h3>Blackened Salmon . . . . . . $14.99</h3>
+						<h3>Spicy Shrimp Scampi . . . . . . $10.99</h3>
+						<h3>Spicy Grilled Prawns . . . . . . $11.99</h3>
+						<h3>Crab Cakes . . . . . . $8.99</h3>
+						<h3>Scallops and Linguine . . . . . . $9.99</h3>
+						<h3>Lobster Mac & Cheese . . . . . . $11.99</h3>
+						<h3>Seafood Curry . . . . . . $9.99</h3>
+                    </div>
+                </div>
+            </div>
+    </section>
+	
+    <hr>
+	
+    <section id="food-menu">
+        <h2 class="food-menu-heading">Beverages</h2>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+                <div class="food-img">
+                </div>
+                <div class="food-description">
+                    <h3 class="food-title">Sparkling Wine . . . . . . $10.99</h3>
+					<h3 class="food-title">Strawberry Lemonade . . . . . . $2.41</h3>
+					<h3 class="food-title">Strawberry Cocktail . . . . . . $11.50</h3>
+					<h3 class="food-title">Milk Shake (chocolate, vanilla, strawberry) . . . . . . $5.99</h3>
+					<h3 class="food-title">Iced Tea . . . . . . $4.99</h3>
+					<h3 class="food-title">Fountain Drinks . . . . . . Price varies</h3>
+                </div>
+            </div>
+
+<hr>
+    <section id="food-dessert">
+	    <h2 class="food-menu-heading">Dessert</h2>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+                <div class="food-img">		
+                </div>
+                <div class="food-description">
+                    <h3 class="food-title">Fruit Kebabs . . . . . . $5.99</h3>
+					<h3 class="food-title">Lemon Cheesecake . . . . . . $7.99</h3>
+					<h3 class="food-title">Orange Upside Down Cake . . . . . . $9.99</h3>
+					<h3 class="food-title">Strawberry Shortcake . . . . . . $9.99</h3>
+					<h3 class="food-title">Chocolate Chip Cookies . . . . . . $3.99</h3>
+					<h3 class="food-title">Raspberry Sorbet . . . . . . $4.99</h3>
+					
+                </div>
+            </div>
+    </section>
+
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <input type="text" placeholder="Your Name" />
+                <input type="email" placeholder="E-Mail" />
+                <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
+                <a href="#" class="btn btn-primary">Submit</a>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <h2>TCC Seafood &copy; rights reserved</h2>
+    </footer>
+
+</html>
+</body>
+
+</html>
